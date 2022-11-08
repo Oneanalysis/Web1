@@ -1,0 +1,167 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    #container > div {
+        background-color: #45f3f099;
+        font-size: 18px;
+        margin: 12px;
+        padding: 12px;
+        width: 1400px;
+        border-radius: 60px;
+        font-family: Calibri;
+        padding-right: 24px;
+    }
+
+.main {
+    float: right;
+    margin-right: 12px;
+}
+
+img {
+    margin-left: 24px;
+    width: 60px;
+    border-radius: 60px;
+    float: left
+}
+
+
+.PRp {
+    font-size: 20px;
+    color: #f5f5f5;
+    padding: 12px;
+    font-family: Calibri;
+    margin-top: 12px;
+    margin-left: 100px;
+    max-width: 1290px;
+    text-align: justify
+}
+
+p, li {
+    font-size: 18px;
+    color: #f5f5f5;
+    margin: 12px;
+    padding: 2px;
+    font-family: Calibri;
+}
+
+.home {
+    font-size: 32px;
+    color: #f5f5f5;
+    margin: 12px;
+    padding: 2px;
+    font-family: Calibri;
+    margin: 24px;
+    padding: 12px;
+}
+
+.abot {
+    font-size: 48px;
+    color: #f5f5f5;
+    font-family: Calibri;
+    margin-left: 100px;
+    margin-top: 70px;
+    padding: 12px;
+}
+
+.abot2 {
+    font-size: 36px;
+    color: #f5f5f5;
+    padding: 2px;
+    font-family: Calibri;
+    margin-left: 100px;
+    padding: 12px;
+}
+
+.abot3 {
+    font-size: 24px;
+    color: #f5f5f5;
+    padding: 2px;
+    font-family: Calibri;
+    margin-left: 100px;
+    padding: 12px;
+    max-width: 480px;
+    text-align: left
+}
+
+h1 {
+    font-size: 128px;
+    color: #f5f5f5;
+    margin: 24px;
+    padding: 12px;
+    font-family: Calibri;
+}
+
+
+
+/* unvisited link */
+a:link {
+    color: #ab2e15;
+}
+
+/* visited link */
+a:visited {
+    color: White;
+    font-size: 18px;
+    color: #f5f5f5;
+    margin: 12px;
+    padding: 2px;
+    font-family: Calibri;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ab2e15;
+    font-size: 24px;
+    color: #f5f5f5;
+    margin: 12px;
+    padding: 2px;
+    font-family: Calibri;
+}
+
+/* selected link */
+a:active {
+    color: #45f3f099;
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-color: #1f1f1f
+    }
+}
+
+@media (max-width: 1199px) 
+{
+    body 
+    {
+        background-color: #acacac
+    }
+
+    p 
+    {
+        color: #343434
+    }
+
+    .PRp {
+        margin-left: 112px;
+    }
+
+    @media (max-width: 599px) 
+    {
+        body 
+        {
+            background-color: #343434
+        }
+
+        p 
+        {
+            color: white
+        }
+
+        .PRp 
+        {
+            margin-left: 1px;
+        }
+    }
+}
