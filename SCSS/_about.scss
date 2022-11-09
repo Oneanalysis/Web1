@@ -1,21 +1,28 @@
 @import "_var";
 
-.about {
+.about1 {
     font-size: 48px;
-    @extend %bot1;
-    padding: $padding;
+    margin-top: $px2;
+    @extend %bdy;
 }
 
-.abot2 {
+.about2 {
     font-size: 36px;
-    @extend %bot1;
-    padding: $padding;
+    @extend %bdy;
 }
 
-.abot3 {
+.about3 {
     font-size: $fonts-L;
-    @extend %bot1;
-    padding: $padding;
+    @extend %bdy;
     max-width: 480px;
     text-align: left
+}
+
+.about_img 
+{
+    margin-left: 24px; 
+    width: 500px; 
+    padding: 24px; 
+    border-radius: 60px; 
+    float: right
 }

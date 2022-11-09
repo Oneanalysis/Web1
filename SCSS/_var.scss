@@ -1,6 +1,6 @@
-$BFont: 18px;
 $px: 12px;
 $px2: 24px;
+$BFont: $px2;
 $Margin: $px;
 $border-radius: 60px;
 $home: 32px;
@@ -12,12 +12,6 @@ $dark: #343434;
 $acent: #45f3f099;
 $complement: #ab2e15;
 $ff: Calibri;
-%bot1 {
-    color: $faded;
-    padding: $sml_pading;
-    font-family: $ff;
-    margin-left: 100px;
-}
 $margin: $px2;
 $fonts-L: $px2;
 $padding: $px;
@@ -27,4 +21,11 @@ $padding: $px;
     margin: $Margin;
     padding: $sml_pading;
     font-family: $ff;
+}
+%bdy {
+    color: $faded;
+    font-family: $ff;
+    margin-left: 100px;
+    padding: $padding;
+    text-align: justify
 }

@@ -4,13 +4,14 @@
 @import "_media";
 @import "_phsuodu";
 @import "_resume";
+@import "_fav";
 
 #container {
     display: flex;
     flex-wrap: wrap;
 }
 
-img {
+.logo {
     margin-left: $px2;
     width: 60px;
     border-radius: $border-radius;
@@ -31,8 +32,4 @@ img {
 .main {
     float: right;
     margin-right: $px;
-}
-
-p {
-    @extend %num;
 }
