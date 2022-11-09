@@ -1,0 +1,31 @@
+@import "_var";
+
+/* unvisited link */
+a:link {
+    color: $complement;
+}
+
+/* visited link */
+a:visited {
+    color: White;
+    font-size: $BFont;
+    color: $faded;
+    margin: $Margin;
+    padding: $sml_pading;
+    font-family: $ff;
+}
+
+/* mouse over link */
+a:hover {
+    color: $complement;
+    font-size: $fonts-L;
+    color: $faded;
+    margin: $Margin;
+    padding: $sml_pading;
+    font-family: $ff;
+}
+
+/* selected link */
+a:active {
+    color: $acent;
+}

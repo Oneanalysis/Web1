@@ -1,0 +1,21 @@
+@import "_var";
+
+.about {
+    font-size: 48px;
+    @extend %bot1;
+    padding: $padding;
+}
+
+.abot2 {
+    font-size: 36px;
+    @extend %bot1;
+    padding: $padding;
+}
+
+.abot3 {
+    font-size: $fonts-L;
+    @extend %bot1;
+    padding: $padding;
+    max-width: 480px;
+    text-align: left
+}

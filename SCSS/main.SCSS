@@ -1,0 +1,38 @@
+@import "_var";
+@import "_about";
+@import "_home";
+@import "_media";
+@import "_phsuodu";
+@import "_resume";
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    margin-left: $px2;
+    width: 60px;
+    border-radius: $border-radius;
+    float: left
+}
+
+#container > div {
+    background-color: $acent;
+    font-size: $BFont;
+    margin: $Margin;
+    padding: $padding;
+    width: 1400px;
+    border-radius: $border-radius;
+    font-family: $ff;
+    padding-right: $px2;
+}
+
+.main {
+    float: right;
+    margin-right: $px;
+}
+
+p {
+    @extend %num;
+}

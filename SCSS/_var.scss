@@ -1,0 +1,30 @@
+$BFont: 18px;
+$px: 12px;
+$px2: 24px;
+$Margin: $px;
+$border-radius: 60px;
+$home: 32px;
+$bot: 48px;
+$bot2: 36px;
+$sml_pading: 2px;
+$faded: #f5f5f5;
+$dark: #343434;
+$acent: #45f3f099;
+$complement: #ab2e15;
+$ff: Calibri;
+%bot1 {
+    color: $faded;
+    padding: $sml_pading;
+    font-family: $ff;
+    margin-left: 100px;
+}
+$margin: $px2;
+$fonts-L: $px2;
+$padding: $px;
+%num {
+    font-size: $BFont;
+    color: $faded;
+    margin: $Margin;
+    padding: $sml_pading;
+    font-family: $ff;
+}

@@ -1,0 +1,16 @@
+@import "_var";
+
+.PRp {
+    font-size: $BFont;
+    color: $faded;
+    padding: $padding;
+    font-family: $ff;
+    margin-top: $px;
+    margin-left: 100px;
+    max-width: 1290px;
+    text-align: justify
+}
+
+li {
+    @extend %num;
+}

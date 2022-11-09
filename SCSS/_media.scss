@@ -1,0 +1,21 @@
+@import "_var";
+
+@media (min-width: 1200px) {
+    body {
+        background-color: $dark
+    }
+}
+
+@media (max-width: 599px) {
+    body {
+        background-color: $dark
+    }
+
+    p {
+        color: $faded
+    }
+
+    .PRp {
+        margin-left: 1px;
+    }
+}
